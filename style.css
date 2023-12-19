@@ -1,37 +1,32 @@
+.Page{
+  background-color: black;
 
+}
 .header {
   display: flex;
-  border: 4px hsl(215, 28%, 17%);
   height: 40px;
   background-color: #1f2937;
   align-items: center;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 .LOGO{
   color: #f9faf8;
   size: 24px; 
-}
-.SPACE{
-  justify-content: center;
   flex: 4;
 }
-.LINKS{
+.header .LINKS{
+  display: flex;
+  align-self: flex-end;
+  justify-content: space-evenly;
   padding-inline: 4px;
   color: #e7e5eb;
   size: 18px; 
-  flex-basis: 33%;
+  flex-basis: 45%;
+
 }
 .tital{
-  display: flex;
-  flex-direction: row;
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
 }
-
-/*.flex-container {
-    /* display: flex; */
-/*  }
-  .flex-container div {
-    background: peachpuff;
-    border: 4px solid brown;
-    height: 100px;
-    /* flex: 1; */
-  
